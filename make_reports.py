@@ -1,12 +1,14 @@
 #!/home/vuko/.local/share/virtualenvs/raporty_glpi-khjiv4wF/bin/python
+import os
 import pymysql as sql
 import pymysql.cursors as sql_cur
 
+
 conn = sql.connect(
-    host="#######",
-    user="############",
-    passwd="########",
-    db="#######",
+    host=os.getenv("HOST"),
+    user=os.getenv("USERNAME"),
+    passwd=os.getenv("PASS"),
+    db=os.getenv("DB"),
     charset="utf8mb4",
     cursorclass=sql_cur.DictCursor,
 )
