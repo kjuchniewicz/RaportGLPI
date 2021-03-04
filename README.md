@@ -15,13 +15,13 @@ Moduł pozwoli pobierać informacje z systemu GLPI na temat poświeconego czasu 
 * Wskaźnik poświęconego czasu na zgłoszenia [WSZ]
 * Wskaźnik poświęconego czasu na projety [WSP]
 
-#####Założenia [WSZ]:
+####Założenia [WSZ]:
 * czasy tylko pracowników działu IT
 * zadania zgłoszeń przypisane do projektów nie będą zaliczane
 * jedynie zakończone zadanie będą sumowane (niezależnie od statusu zgłoszemia)
 * wyznacznikiem warunku czasowego będzie data modyfikacji __(uwaga zadanie zakończone dalej można modyfikować na niezakończonym zgłoszeniu)__
 
-#####Założenia [WSP]:
+####Założenia [WSP]:
 * czasy tylko pracowników działu IT
 * czas zostanie zaliczony każdemu pracownikowi przysanemu do zespołu zadania
 * poza czasami zadań projektu będą też zaliczane czasy zadań zgłoszeń przypisanych do projektu _(czasy zadań w takim zgłoszeniu bedą dodane odpowiedni każdemu pracownikowi)_
