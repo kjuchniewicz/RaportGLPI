@@ -41,10 +41,10 @@ Aby uruchomić wystarczy:
 
 ```bash
 $ python make_reports.py 
-Banaszek Michał         --> 12.2500
-Bilkiewicz Marcin       --> 23.0000
-Chrzaszcz Grzegorz      --> 5.0000
-Juchniewicz Kamil       --> 24.7500
+Ban----- Michał         --> 12.2500
+Bilk------ Marcin       --> 23.0000
+Chr------ Grzegorz      --> 5.0000
+Juch------- Kamil       --> 24.7500
 ```
 
 ## Instalacja zależności
